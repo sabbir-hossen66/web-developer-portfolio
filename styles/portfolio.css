@@ -1,7 +1,7 @@
 /* font link */
-body {
+/* body {
     font-family: 'Open Sans', sans-serif;
-}
+} */
 
 .text-orange {
     color: #FD6E0A;
@@ -23,10 +23,15 @@ body {
 
 }
 
+.header {
+    background-color: #FFF8F3;
+}
+
 .navbar {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    margin: 0 200px;
 }
 
 nav>ul {
@@ -48,4 +53,53 @@ nav a {
     text-decoration: none;
     color: var(--Dark-02, #474747);
     font-weight: normal;
+}
+
+.left-side {
+    margin: 0 200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.left-button {
+    display: flex;
+}
+
+.download-btn {
+    border-radius: 5px;
+    background: #FD6E0A;
+    /* padding: 19px 51px; */
+    border: none;
+    color: white;
+    width: 200px;
+    height: 64px;
+    top: 589px;
+    left: 230px;
+    border-radius: 5px;
+    margin-right: 30px;
+
+}
+
+.contact {
+    width: 160px;
+    height: 64px;
+    flex-shrink: 0;
+    border-radius: 5px;
+    border: 1px solid #FD6E0A;
+
+    color: #FD6E0A;
+    text-align: center;
+    font-family: Open Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.img {
+    width: 400px;
+    /* height: 676px;
+    flex-shrink: 0; */
 }
