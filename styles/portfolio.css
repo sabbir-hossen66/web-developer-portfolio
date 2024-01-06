@@ -21,6 +21,7 @@
     font-weight: bold;
     border: none;
     padding: 15px 30px;
+    color: white;
 }
 
 .heading {
@@ -197,4 +198,41 @@ main {
     border-radius: 5px;
     background: #FFF;
     box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+}
+
+.skill-description {
+    color: #757575
+}
+
+.resume-column-title {
+    color: #474747;
+    font-family: Open Sans;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+}
+
+.resume-container {
+    display: flex;
+    gap: 50px;
+    justify-content: space-evenly;
+}
+
+.resume-item-institution {
+    color: #757575;
+
+}
+
+.resume-item-description {
+    color: #757575;
+    font-family: monospace;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.download-CV {
+    text-align: center;
+    padding: 50px;
+
 }
